@@ -1,0 +1,22 @@
+@model SistemadeCursosMVC.Models.Curso
+
+<h2>Cadastrar Cursos</h2>
+
+<form asp-action="Criar"> @* Redireciona as ações emviadas pelo submmit para a ação "Criar" presente na controller*@
+
+    @*Os nomes(name) tem que ser os mesmos do parâmetro Criar*@
+
+    <label>Nome:</label>
+    <input type="text" name="nomeConstrutor" class="form-control"> @* O nome das classes é padrão do arquivo mvc criado*@
+
+    <label>Horas:</label>
+    <input type="number" name="horasConstrutor" class="form-control">
+
+    <label>Tipo de Curso:</label>
+    <select name="tipoConstrutor" class="form-control">
+        <option value="Tecnico">Técnico</option>
+        <option value="Superior">Superior</option>
+    </select>
+
+    <button type="submit" class="btn btn-sucess">Salvar</button>
+</form>

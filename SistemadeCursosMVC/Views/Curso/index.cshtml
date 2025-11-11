@@ -1,0 +1,28 @@
+@model List<SistemadeCursosMVC.Models.Curso>
+
+<h2>Cursos</h2>
+
+<a asp-action="Criar" class="btn btn-primary">Novo curso</a>
+
+<table class="table mt-3">
+    <tr>
+        <th>Nome</th>
+        <th>Tipo de Curso</th>
+        <th>Quantidade de horas</th>
+        <th>Preço calculado</th>
+        <th>Ações</th>
+    </tr>
+
+    @foreach(var curso in Model)
+    {
+        <tr>
+            <td>@curso.Nome</td> @* Cola de acordo com a ordem da tabela acima*@
+            <td>@curso.GetType().Name</td> @*GetType() - puxa pelo name(superior ou técnico)*@
+            <td>@curso.Horas</td>
+            <td>@curso.CalcularPreco()</td>
+            <td>
+                <a asp-action="Deletar" asp-route-id="@curso.Id" class="btn btn-danger">Excluir</a> @* Para excluir pega a route id *@
+            </td>
+        </tr>
+    }
+</table>
