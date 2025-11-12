@@ -15,8 +15,8 @@ namespace SistemadeCursosMVC.Data
         {
             modelBuilder.Entity<Curso>()
             .HasDiscriminator<string>("Tipo") // Ele separa as classes por Tipo
-            .HasValue<Tecnico>("Técnico") // Quando o valor for da classe "Tecnico" ele joga para o "Tipo Técnico"
+            .HasValue<Técnico>("Técnico") // Quando o valor for da classe "Tecnico" ele joga para o "Tipo Técnico"
             .HasValue<Superior>("Superior");
         }
     }
-}
+}   

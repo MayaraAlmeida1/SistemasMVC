@@ -1,11 +1,11 @@
 
 namespace SistemadeCursosMVC.Models
 {
-    public class Tecnico : Curso
+    public class Técnico : Curso
     {
         //* métodos de sobrecarga
-        public Tecnico() { }
-        public Tecnico(string nomeConstrutor, int horasConstrutor) :base(nomeConstrutor, horasConstrutor) { }
+        public Técnico() { }
+        public Técnico(string nomeConstrutor, int horasConstrutor) :base(nomeConstrutor, horasConstrutor) { }
 
         //* métodos de sobrescrita
         public override double CalcularPreco()

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaFuncionariosMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edfdf68605fb44a4af28aaa81dd5afc2ecb139f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fefb8b444bbcd77d9374176c1bae0051124d650a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaFuncionariosMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaFuncionariosMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

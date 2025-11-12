@@ -30,9 +30,9 @@ namespace SistemadeCursosMVC.Controllers
         {
             Curso? novoCurso = null; // A ? - permite a inicialização vazia, como nula
 
-            if(tipoCursoConstrutor == "Tecnico")
+            if(tipoCursoConstrutor == "Técnico")
             {
-                novoCurso = new Tecnico(nomeConstrutor, horasConstrutor);
+                novoCurso = new Técnico(nomeConstrutor, horasConstrutor);
             } 
             else if(tipoCursoConstrutor == "Superior")
             {

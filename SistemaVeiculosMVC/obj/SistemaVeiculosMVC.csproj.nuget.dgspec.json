@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47014999869\\Desktop\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj": {}
+    "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47014999869\\Desktop\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj": {
+    "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47014999869\\Desktop\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj",
+        "projectUniqueName": "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj",
         "projectName": "SistemaVeiculosMVC",
-        "projectPath": "C:\\Users\\47014999869\\Desktop\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj",
+        "projectPath": "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaVeiculosMVC\\SistemaVeiculosMVC.csproj",
         "packagesPath": "C:\\Users\\47014999869\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47014999869\\Desktop\\SistemaVeiculosMVC\\obj\\",
+        "outputPath": "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaVeiculosMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\47014999869\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,24 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

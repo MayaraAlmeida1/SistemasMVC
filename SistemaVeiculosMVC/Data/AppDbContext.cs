@@ -1,4 +1,5 @@
 
+using Microsoft.EntityFrameworkCore;
 using SistemaVeiculosMVC.Models;
 
 namespace SistemaVeiculosMVC.Data 
@@ -9,10 +10,12 @@ namespace SistemaVeiculosMVC.Data
 
         public DbSet<Veiculo> TabelaVeiculo { get; set; }
 
-        protected override void onModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Veiculo>()
-            .HasDiscriminator
+            .HasDiscriminator<string>("Tipo")
+            .HasValue<Carro>("Carro")
+            .HasValue<Moto>("Moto");
         }
     }
 }
