@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47014999869\\Desktop\\Sistema-de-Funcionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {}
+    "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47014999869\\Desktop\\Sistema-de-Funcionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {
+    "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47014999869\\Desktop\\Sistema-de-Funcionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
+        "projectUniqueName": "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
         "projectName": "SistemaFuncionariosMVC",
-        "projectPath": "C:\\Users\\47014999869\\Desktop\\Sistema-de-Funcionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
+        "projectPath": "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
         "packagesPath": "C:\\Users\\47014999869\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47014999869\\Desktop\\Sistema-de-Funcionarios\\SistemaFuncionariosMVC\\obj\\",
+        "outputPath": "C:\\Users\\47014999869\\Desktop\\SistemasMVC\\SistemaFuncionariosMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\47014999869\\AppData\\Roaming\\NuGet\\NuGet.Config"

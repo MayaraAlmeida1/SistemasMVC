@@ -1,0 +1,19 @@
+
+@model SistemaAnimaisMVC.Models.Animal
+
+<h2>Adicionar Animal</h2>
+
+<form asp-action="Criar">
+
+    <label>Nome</label>
+    <input type="text" name="nomeConstrutor" class="form-control">
+
+    <label>Tipo</label>
+    <select name="tipoAnimalConstrutor">
+        <option value="Leão">Leão</option>
+        <option value="Elefante">Elefante</option>
+    </select>
+
+    <button type="submit" class="btn btn-sucess">Salvar</button>
+
+</form>

@@ -1,0 +1,28 @@
+@model List<SistemaPersonagensMVC.Models.Personagem>
+
+<h2>Personagens</h2>
+
+<a asp-action="Criar" class="btn btn-primary">Novo Personagem</a>
+
+<table class="table mt-3">
+    <tr>
+        <th>Nome</th>
+        <th>Tipo</th>
+        <th>Nível</th>
+        <th>Poder</th>
+        <th>Ações</th>
+    </tr>
+
+    @foreach(var Personagem in Model)
+    {
+        <tr>
+            <td>@Personagem.Nome</td>
+            <td>@Personagem.GetType().Name</td>
+            <td>@Personagem.Nivel</td>
+            <td>@Personagem.CalcularPoder()</td>
+            <td>
+                <a asp-action="Deletar" asp-route-id="@Personagem.Id" class="btn btn-danger">Excluir</a>
+            </td>
+        </tr>
+    }
+</table>

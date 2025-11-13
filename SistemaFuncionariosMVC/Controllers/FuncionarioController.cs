@@ -22,7 +22,7 @@ namespace SistemaFuncionariosMVC.Controllers
         // async / await -> executa a função de listar dentro do banco, mas permite que o sistema continue rodando enquanto isso acontece.
 
         public async Task<IActionResult> Index()
-        {
+        {   
             // ToList - lista as informações dentro da tabela funcionário.
             var lista = await _context.TabelaFuncionario.ToListAsync();
 
